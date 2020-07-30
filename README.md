@@ -1,2 +1,2 @@
 # vkbot
-Simple bot for social network VK.
+Simple bot for social network VK on Python.
