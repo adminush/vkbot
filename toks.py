@@ -1,2 +1,2 @@
-mainToken = 'ur toker'
+mainToken = 'ur token'
 idGroup = 'ur id'
