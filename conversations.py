@@ -51,13 +51,13 @@ for event in longpoll.listen():
 						print("Number day is: ", start_day)
 
 					# Отправка сообщения утром
-					if current_datetime.hour == 18 and current_datetime.minute == 00 and current_datetime.second < 2:
-						vkMessage = "Доброе утро! Расписание на сегодня:\n\n 9:00 - 10:00 Сасите\n 11:00 - 12:00 Идите нахуй"
+					if current_datetime.hour == 8 and current_datetime.minute == 0 and current_datetime.second < 2:
+						vkMessage = "Доброе утро! Расписание на сегодня:\n\n 9:00 - 10:00 Русский язык\n 11:00 - 12:00 Математика"
 						vk.messages.send ( random_id = random_id, chat_id = chat_id, message = vkMessage, )
 
 					# Отправка сообщения вечером
-					if current_datetime.hour == 18 and current_datetime.minute == 30 and current_datetime.second < 2:
-						vkMessage = "Доброе вечер! Расписание на завтра:\n\n 9:00 - 10:00 Умри от спид\n 11:00 - 12:00 Будь куколдом!"
+					if current_datetime.hour == 20 and current_datetime.minute == 0 and current_datetime.second < 2:
+						vkMessage = "Доброе вечер! Расписание на завтра:\n\n 9:00 - 10:00 Философия\n 11:00 - 12:00 Психология"
 						vk.messages.send ( random_id = random_id, chat_id = chat_id, message = vkMessage, )
 
 					set_day = 0
